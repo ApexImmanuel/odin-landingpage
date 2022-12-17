@@ -92,6 +92,12 @@ h3 {
     font-weight: bold;
     font-size: 20px;
 }
+.earbuds div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .earbuds p {
     background-color: white;
     padding: 10px 15px;

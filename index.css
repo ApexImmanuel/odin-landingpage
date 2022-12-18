@@ -76,9 +76,10 @@ h3 {
 }
 .earbuds img {
     width: 200px;
-    height: auto;
+    height: 200px;
     border-radius: 10px;
     border: 2px solid #333333;
+    max-height: 200px;
 }
 .earbuds img:hover {
     opacity: 0.5;
@@ -94,7 +95,7 @@ h3 {
 
 .earbuds p {
     background-color: white;
-    padding: 10px 15px;
+    padding: 15px 15px;
     border-radius: 5px;
     border: 1px solid black;
 }
@@ -114,9 +115,12 @@ h3 {
 }
 .quote p {
 margin-top: 150px;
-margin-left: 1100px;
+margin-left: 1150px;
 font-size: 40px;
 font-weight: bold;
-
-
+}
+span {
+    margin-top: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
 }
